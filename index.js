@@ -1,3 +1,9 @@
+document.getElementById('tirar-carta').addEventListener('click', ()=>{
+    tirarUmaCartaDoBaralho()
+})
+
+
+
 async function criarBaralhoEmbaralhado() {
     const url = "https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1"
 
@@ -28,3 +34,4 @@ async function tirarUmaCartaDoBaralho() {
 }
 
 tirarUmaCartaDoBaralho()
+
